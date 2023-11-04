@@ -1,0 +1,19 @@
+{
+    "name": "daniwebdev/bot-telegram-screener-saham",
+    "autoload": {
+        "psr-4": {
+            "DANIWEBDEV\\BotTelegramStockScreener\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dani",
+            "email": "dani.webdev@gmail.com"
+        }
+    ],
+    "require": {
+        "longman/telegram-bot": "^0.82.0",
+        "goapi-io/php-sdk": "^1.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
